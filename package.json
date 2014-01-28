@@ -1,0 +1,31 @@
+{
+  "name": "basicfuncs",
+  "title": "basicfuncs",
+  "id": "jid1-cUIbemJdFonG9g",
+  "description": "a basic add-on for fast searching and emailing",
+  "author": "Paul Vinieratos <pvinis@gmail.com>",
+  "homepage": "http://pvinis.github.io",
+  "license": "MPL 2.0",
+  "version": "0.1",
+  "preferences": [{
+    "name": "newtab",
+	"title": "Open search in new tab",
+	"description": "when pressing ctrl+shift+s",
+	"type": "bool",
+	"value": true
+  },
+  {
+    "name": "bgtab",
+    "title": "Open search in background",
+    "description": "when pressing ctrl+shift+s (only when opening in new tab)",
+    "type": "bool",
+    "value": true
+  },
+  {
+    "name": "email",
+    "title": "Your email, in order to email a url to yourself",
+    "description": "when pressing ctrl+shift+a",
+    "type": "string",
+    "value": "someone@example.com"
+  }]
+}
